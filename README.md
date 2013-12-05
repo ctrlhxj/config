@@ -1,8 +1,8 @@
 config
 ======
-ir_block.vim: ~/.vim/colors/
+- ir_block.vim: ~/.vim/colors/
 
-Monaco:
+- Monaco:
 ```sh
 #!/bin/bash
  
