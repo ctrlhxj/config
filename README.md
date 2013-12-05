@@ -3,6 +3,7 @@ config
 ir_block.vim: ~/.vim/colors/
 
 Monaco:
+
 #!/bin/bash
  
 #script extraido de: http://paulocassiano.wordpress.com/2008/08/29/deixando-o-gedit-com-a-cara-do-textmate/
@@ -25,3 +26,16 @@ cd ..
  
 fc-cache
 
+config
+======
+ir_block.vim: ~/.vim/colors/
+
+Monaco:
+
+```sh
+function prompt_callback {
+    if [ `jobs | wc -l` -ne 0 ]; then
+        echo -n " jobs:\j"
+    fi
+}
+```
